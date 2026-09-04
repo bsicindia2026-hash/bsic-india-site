@@ -107,6 +107,8 @@ export default function Home({ navigateTo, openMOUModal, openCSRModal }) {
                 <img 
                   src={studentInnovatorsImg} 
                   alt="Student Innovators at National Startup Council Innovation Awards" 
+                  fetchPriority="high"
+                  decoding="async"
                   style={{ width: '100%', height: 'auto', maxHeight: '440px', objectFit: 'cover', borderRadius: '2px', display: 'block' }}
                 />
                 <div style={{ 

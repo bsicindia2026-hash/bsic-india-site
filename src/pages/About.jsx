@@ -69,6 +69,8 @@ export default function About({ navigateTo, openMOUModal }) {
                 <img 
                   src={mouSigningImg} 
                   alt="Bharat Startup Incubation Council Charter Signing Ceremony" 
+                  fetchPriority="high"
+                  decoding="async"
                   style={{ width: '100%', height: 'auto', maxHeight: '440px', objectFit: 'cover', borderRadius: '2px', display: 'block' }}
                 />
                 <div style={{ 

@@ -274,6 +274,8 @@ export default function CampusCollaborations({ initialFilter = 'All' }) {
                       key={i} 
                       src={img.src} 
                       alt="thumbnail" 
+                      loading="lazy"
+                      decoding="async"
                       onClick={() => openLightbox(collab, i)}
                       style={{ 
                         width: '44px', 

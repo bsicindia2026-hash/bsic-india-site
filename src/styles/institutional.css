@@ -49,12 +49,19 @@
   box-sizing: border-box;
 }
 
-/* Text Size Zoom adjustments on HTML root element */
 html {
   --zoom-factor: 1;
   font-size: calc(16px * var(--zoom-factor));
   scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   transition: font-size 0.15s ease-in-out;
+}
+
+/* Eliminate tap delay on touch devices */
+a, button, input, select, textarea, [role="button"] {
+  touch-action: manipulation;
 }
 
 html.font-sm {
@@ -431,6 +438,8 @@ body {
   display: inline-flex;
   white-space: nowrap;
   will-change: transform;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
   animation: marqueeScroll 28s linear infinite;
 }
 
@@ -440,10 +449,10 @@ body {
 
 @keyframes marqueeScroll {
   0% {
-    transform: translateX(0%);
+    transform: translate3d(0%, 0, 0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translate3d(-50%, 0, 0);
   }
 }
 
@@ -602,6 +611,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-pad {
   padding: 60px 0;
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 650px;
 }
 
 .bg-light {
@@ -688,7 +699,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 2px;
   padding: 24px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
 }
 
 .gov-card.gold-border {

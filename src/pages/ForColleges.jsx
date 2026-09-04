@@ -86,6 +86,8 @@ export default function ForColleges({ navigateTo, openMOUModal }) {
                 <img 
                   src={mouSigningImg} 
                   alt="Official Bilateral MOU Execution between Principal and Bharat Startup Incubation Council" 
+                  fetchPriority="high"
+                  decoding="async"
                   style={{ width: '100%', height: 'auto', maxHeight: '440px', objectFit: 'cover', borderRadius: '2px', display: 'block' }}
                 />
                 <div style={{ 

@@ -82,6 +82,8 @@ export default function ForSponsors({ navigateTo, openCSRModal }) {
                 <img 
                   src={csrSummitImg} 
                   alt="Corporate CSR Leaders and Academic Mentors at Collegiate Green-Tech Innovation Summit" 
+                  fetchPriority="high"
+                  decoding="async"
                   style={{ width: '100%', height: 'auto', maxHeight: '440px', objectFit: 'cover', borderRadius: '2px', display: 'block' }}
                 />
                 <div style={{ 
