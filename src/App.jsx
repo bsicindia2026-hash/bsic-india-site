@@ -50,19 +50,27 @@ export default function App() {
     }
   }, [highContrast]);
 
-  // Handle hash change for clean browser navigation
+  // Handle path or hash navigation for clean browser and Vercel routing
   useEffect(() => {
-    const handleHash = () => {
+    const handleNavigation = () => {
+      const path = window.location.pathname.replace(/^\/+|\/+$/g, '');
       const hash = window.location.hash.replace('#', '');
       const validPages = ['home', 'about', 'programs', 'for-colleges', 'for-sponsors', 'resources', 'contact'];
-      if (validPages.includes(hash)) {
+      
+      if (validPages.includes(path)) {
+        setCurrentPage(path);
+      } else if (validPages.includes(hash)) {
         setCurrentPage(hash);
       }
     };
 
-    handleHash();
-    window.addEventListener('hashchange', handleHash);
-    return () => window.removeEventListener('hashchange', handleHash);
+    handleNavigation();
+    window.addEventListener('hashchange', handleNavigation);
+    window.addEventListener('popstate', handleNavigation);
+    return () => {
+      window.removeEventListener('hashchange', handleNavigation);
+      window.removeEventListener('popstate', handleNavigation);
+    };
   }, []);
 
   const navigateTo = (pageId) => {
