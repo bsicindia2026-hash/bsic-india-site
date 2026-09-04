@@ -246,14 +246,14 @@ export default function About({ navigateTo, openMOUModal }) {
                 <div style={{ position: 'relative', width: '96px', height: '96px', borderRadius: '50%', overflow: 'hidden', border: '3px solid #D97706', flexShrink: 0, boxShadow: '0 4px 12px rgba(11, 37, 69, 0.25)' }}>
                   <img 
                     src="/collaborations/saran_1.jpg" 
-                    alt="Saran - Founder & Director, Bharat Startup Incubation Council" 
+                    alt="Saran - Director, Bharat Startup Incubation Council" 
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   />
                 </div>
                 <div>
                   <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', marginBottom: '4px', flexWrap: 'wrap' }}>
                     <span style={{ fontSize: '0.76rem', color: '#B45309', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.04em' }}>
-                      Founder & Director
+                      Director
                     </span>
                     <span style={{ fontSize: '0.72rem', background: '#FEF3C7', color: '#92400E', padding: '2px 8px', borderRadius: '3px', fontWeight: 700, border: '1px solid #FDE68A' }}>
                       75+ Campus Hackathons

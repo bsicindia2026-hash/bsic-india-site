@@ -79,7 +79,7 @@ export const collaborations = [
       { src: '/collaborations/reva_university_1.jpg', caption: 'Auditorium keynote and orientation with 800+ collegiate innovators' },
       { src: '/collaborations/reva_university_8.jpg', caption: 'Student venture teams huddled in intensive prototyping sessions' },
       { src: '/collaborations/reva_university_9.jpg', caption: 'Cross-functional engineering and design sprint in session' },
-      { src: '/collaborations/reva_university_2.jpg', caption: 'Founder Saran delivering the kick-off keynote address' },
+      { src: '/collaborations/reva_university_2.jpg', caption: 'Director Saran delivering the kick-off keynote address' },
       { src: '/collaborations/reva_university_3.jpg', caption: 'Mentor desk providing continuous code reviews and architecture guidance' },
       { src: '/collaborations/reva_university_10.jpg', caption: 'Finalists pitching their working solutions to external jury' }
     ]
@@ -208,7 +208,7 @@ export const collaborations = [
       { src: '/collaborations/bit_bangalore_7.jpg', caption: 'Stage presentations and prototype demonstrations at BIT Bangalore' },
       { src: '/collaborations/bit_bangalore_8.jpg', caption: 'Student team celebrating their award-winning venture concept' },
       { src: '/collaborations/bit_bangalore_3.jpg', caption: 'Auditorium audience of student innovators and faculty leads' },
-      { src: '/collaborations/bit_bangalore_5.jpg', caption: 'Founder Saran moderating project evaluations on stage' }
+      { src: '/collaborations/bit_bangalore_5.jpg', caption: 'Director Saran moderating project evaluations on stage' }
     ]
   },
   {
@@ -333,7 +333,7 @@ export const collaborations = [
     images: [
       { src: '/collaborations/ton_hackerhouse_1.jpg', caption: 'Selected collegiate founders collaborating in the hacker house workspace' },
       { src: '/collaborations/ton_hackerhouse_2.jpg', caption: 'Intensive product architecture and tokenomics review' },
-      { src: '/collaborations/ton_hackerhouse_3.jpg', caption: 'Founder Saran coaching student builders during one-on-one office hours' }
+      { src: '/collaborations/ton_hackerhouse_3.jpg', caption: 'Director Saran coaching student builders during one-on-one office hours' }
     ]
   }
 ];

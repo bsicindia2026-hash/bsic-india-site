@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { 
   Building2, 
   MapPin, 
@@ -12,7 +13,8 @@ import {
   Layers,
   Sparkles,
   CheckCircle2,
-  Maximize2
+  Maximize2,
+  Images
 } from 'lucide-react';
 import { collaborations, collaborationStats } from '../data/collaborations';
 
@@ -57,6 +59,30 @@ export default function CampusCollaborations({ initialFilter = 'All' }) {
     if (!activeCollab) return;
     setActiveImageIndex((prev) => (prev - 1 + activeCollab.images.length) % activeCollab.images.length);
   };
+
+  // Lock body scroll and handle keyboard navigation when gallery modal is open
+  useEffect(() => {
+    if (!activeCollab) return;
+
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        closeLightbox();
+      } else if (e.key === 'ArrowRight') {
+        setActiveImageIndex((prev) => (prev + 1) % activeCollab.images.length);
+      } else if (e.key === 'ArrowLeft') {
+        setActiveImageIndex((prev) => (prev - 1 + activeCollab.images.length) % activeCollab.images.length);
+      }
+    };
+
+    const originalOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.body.style.overflow = originalOverflow;
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [activeCollab]);
 
   return (
     <section id="track-record" className="section-pad bg-light" style={{ borderTop: '1px solid #E2E8F0', borderBottom: '1px solid #E2E8F0' }}>
@@ -206,23 +232,25 @@ export default function CampusCollaborations({ initialFilter = 'All' }) {
                   </span>
                 </div>
 
-                {/* Photo Count Tag */}
+                {/* Open Gallery Badge */}
                 <div style={{ 
                   position: 'absolute', 
                   bottom: '12px', 
                   right: '12px', 
-                  background: 'rgba(11, 37, 69, 0.88)', 
+                  background: 'rgba(11, 37, 69, 0.92)', 
                   color: '#FDE68A', 
                   fontSize: '0.74rem', 
                   fontWeight: 700, 
-                  padding: '4px 9px', 
-                  borderRadius: '3px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '5px'
+                  padding: '4px 10px', 
+                  borderRadius: '3px', 
+                  display: 'flex', 
+                  alignItems: 'center', 
+                  gap: '6px',
+                  boxShadow: '0 2px 8px rgba(0, 0, 0, 0.35)',
+                  border: '1px solid rgba(253, 230, 138, 0.3)'
                 }}>
-                  <Maximize2 size={12} />
-                  <span>{collab.images.length} Real Photos</span>
+                  <Images size={13} />
+                  <span>Open Gallery ({collab.images.length})</span>
                 </div>
               </div>
 
@@ -319,8 +347,8 @@ export default function CampusCollaborations({ initialFilter = 'All' }) {
                   className="btn-gov btn-gov-primary"
                   style={{ width: '100%', justifyContent: 'center', fontSize: '0.86rem', padding: '9px 14px' }}
                 >
-                  <Maximize2 size={14} />
-                  <span>View Campus Photos & Brief</span>
+                  <Images size={14} />
+                  <span>Open Gallery</span>
                 </button>
               </div>
             </div>
@@ -328,16 +356,39 @@ export default function CampusCollaborations({ initialFilter = 'All' }) {
         </div>
       </div>
 
-      {/* Lightbox Modal for Campus Photo Showcase */}
-      {activeCollab && (
+      {/* Lightbox Modal for Campus Photo Showcase (Rendered via Portal to document.body) */}
+      {activeCollab && typeof document !== 'undefined' && createPortal(
         <div 
           className="modal-overlay" 
           onClick={closeLightbox}
-          style={{ zIndex: 12000, background: 'rgba(6, 21, 40, 0.88)' }}
+          style={{ 
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            width: '100vw',
+            height: '100vh',
+            zIndex: 999999, 
+            background: 'rgba(6, 21, 40, 0.88)',
+            backdropFilter: 'blur(6px)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: '16px'
+          }}
         >
           <div 
             className="modal-content" 
-            style={{ maxWidth: '1100px', width: '95vw', maxHeight: '92vh', display: 'flex', flexDirection: 'column' }}
+            style={{ 
+              maxWidth: '1100px', 
+              width: '95vw', 
+              maxHeight: '92vh', 
+              display: 'flex', 
+              flexDirection: 'column',
+              boxShadow: '0 25px 60px -15px rgba(0, 0, 0, 0.65)',
+              position: 'relative'
+            }}
             onClick={(e) => e.stopPropagation()}
           >
             {/* Lightbox Header */}
@@ -492,7 +543,8 @@ export default function CampusCollaborations({ initialFilter = 'All' }) {
               </button>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </section>
   );
