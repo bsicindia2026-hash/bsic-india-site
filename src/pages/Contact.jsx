@@ -71,7 +71,7 @@ export default function Contact({ openMOUModal, openCSRModal }) {
             Let’s build the pipeline together.
           </h1>
           <p style={{ fontSize: '1.15rem', color: '#CBD5E1', maxWidth: '820px', lineHeight: 1.6 }}>
-            Whether you’re a college exploring a partnership, a company exploring CSR sponsorship, or a student who wants to get involved — reach out.
+            Whether you’re a college exploring a partnership, a company exploring CSR sponsorship, or a student eager to get involved, we welcome your inquiry.
           </p>
         </div>
       </section>
@@ -328,7 +328,7 @@ export default function Contact({ openMOUModal, openCSRModal }) {
           {/* Closing Line */}
           <div style={{ textAlign: 'center', marginTop: '48px', padding: '24px', background: '#F1F5F9', borderRadius: '3px' }}>
             <p style={{ fontSize: '1.15rem', color: '#0B2545', fontStyle: 'italic', margin: 0 }}>
-              “We’re building this one campus at a time — reach out and let’s talk about yours.”
+              “We’re building this one campus at a time. Reach out and let’s talk about yours.”
             </p>
           </div>
         </div>

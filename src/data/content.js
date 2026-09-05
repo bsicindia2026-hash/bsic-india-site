@@ -10,8 +10,8 @@ export const councilInfo = {
     collegeEmail: "colleges@bsicindia.com",
     csrEmail: "csr@bsicindia.com",
     helpline: "+91 11 2345 6789",
-    hours: "Mon – Fri: 09:30 AM – 06:00 PM IST",
-    address: "Council Secretariat, Institutional Area, Lodhi Road, New Delhi — 110003"
+    hours: "Mon - Fri: 09:30 AM - 06:00 PM IST",
+    address: "Council Secretariat, Institutional Area, Lodhi Road, New Delhi 110003"
   },
   socials: {
     linkedin: "https://linkedin.com/company/bsicindia",

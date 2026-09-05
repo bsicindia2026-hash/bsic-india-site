@@ -34,7 +34,7 @@ export default function ForColleges({ navigateTo, openMOUModal }) {
                 An entrepreneurship program you don’t have to build yourself.
               </h1>
               <p style={{ fontSize: '1.15rem', color: '#CBD5E1', lineHeight: 1.7, marginBottom: '24px' }}>
-                Your students already have the ideas — whatever your discipline, whatever your city. BSIC brings the structure — space setup, trained coordinators, a full events calendar, and a funding pathway — so your college doesn’t have to staff or design it from scratch.
+                Your students already have the ideas, whatever your discipline or city. BSIC provides the complete operational structure: physical space setup, trained coordinators, a full events calendar, and a funding pathway, ensuring your college does not have to staff or design it from scratch.
               </p>
               <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap', marginBottom: '24px' }}>
                 <button 
@@ -126,7 +126,7 @@ export default function ForColleges({ navigateTo, openMOUModal }) {
         </div>
       </section>
 
-      {/* Built Especially For Section — Expanded Full Width Layout */}
+      {/* Built Especially For Section: Expanded Full Width Layout */}
       <section className="section-pad bg-white">
         <div className="container">
           <div>
@@ -280,7 +280,7 @@ export default function ForColleges({ navigateTo, openMOUModal }) {
                     Standardized Campus Prototyping & Incubation Cell
                   </h3>
                   <p style={{ fontSize: '0.96rem', color: '#475569', lineHeight: 1.65, marginBottom: '22px' }}>
-                    BSIC brings end-to-end turnkey infrastructure to your campus. From student prototyping workbenches and testing kits to certified coordinator training and scheduled national hackathons — everything is structured to operate within existing college premises with zero design burden on college administration.
+                    BSIC brings end-to-end turnkey infrastructure to your campus. From student prototyping workbenches and testing kits to certified coordinator training and scheduled national hackathons, everything is structured to operate within existing college premises with zero design burden on college administration.
                   </p>
                   
                   <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '14px', marginBottom: '22px' }}>
@@ -391,7 +391,7 @@ export default function ForColleges({ navigateTo, openMOUModal }) {
                     2. A shared events pipeline
                   </h4>
                   <p style={{ fontSize: '0.88rem', color: '#475569', margin: 0 }}>
-                    Your students plug into a calendar of hackathons and pitch days run across all BSIC partner campuses — more energy, more visibility, more competition than a standalone college event can generate alone.
+                    Your students plug into a calendar of hackathons and pitch days run across all BSIC partner campuses, delivering greater energy, corporate visibility, and competitive momentum than a standalone college event can generate alone.
                   </p>
                 </div>
 
@@ -441,7 +441,7 @@ export default function ForColleges({ navigateTo, openMOUModal }) {
                     <strong>Calendar Participation:</strong> Active participation in the centrally scheduled hackathons, pitch sprints, and mentor clinics.
                   </li>
                   <li>
-                    <strong>Funding Mechanism:</strong> A modest setup and retainer arrangement — or, for eligible government colleges, a <strong>CSR-sponsored setup at no direct cost to the college</strong>.
+                    <strong>Funding Mechanism:</strong> A modest setup and retainer arrangement, or, for eligible government colleges, a <strong>CSR-sponsored setup at no direct cost to the college</strong>.
                   </li>
                 </ul>
               </div>
@@ -452,7 +452,7 @@ export default function ForColleges({ navigateTo, openMOUModal }) {
                   For Government Colleges Specifically
                 </h3>
                 <p style={{ fontSize: '0.88rem', color: '#451A03', lineHeight: 1.65, margin: 0 }}>
-                  We know government colleges don’t operate like private engineering colleges — approvals run through a Principal and governing body, budgets are earmarked, and paying a private vendor a retainer isn’t always straightforward. 
+                  We know government colleges don’t operate like private engineering colleges: approvals run through a Principal and governing body, budgets are earmarked, and paying a private vendor a retainer isn’t always straightforward. 
                 </p>
                 <div style={{ marginTop: '12px', background: '#FFFFFF', padding: '12px', borderRadius: '2px', border: '1px solid #FCD34D' }}>
                   <strong style={{ fontSize: '0.84rem', color: '#0B2545' }}>The Bilateral MOU Pathway:</strong>
@@ -498,7 +498,7 @@ export default function ForColleges({ navigateTo, openMOUModal }) {
               <div className="step-num">3</div>
               <h3 className="step-title">Run</h3>
               <p style={{ fontSize: '0.86rem', color: '#64748B', lineHeight: 1.6, margin: 0 }}>
-                Your cell goes live. Students participate in pan-network hackathons, ideation sprints, and mentor clinics — all coordinated directly with BSIC support.
+                Your cell goes live. Students participate in pan-network hackathons, ideation sprints, and mentor clinics, all coordinated directly with BSIC support.
               </p>
             </div>
 
@@ -506,7 +506,7 @@ export default function ForColleges({ navigateTo, openMOUModal }) {
               <div className="step-num">4</div>
               <h3 className="step-title">Review</h3>
               <p style={{ fontSize: '0.86rem', color: '#64748B', lineHeight: 1.6, margin: 0 }}>
-                Each term, we review what the cell has produced together (ideas, formed teams, pitches) and plan the next step — including a path to Tier 2 if the cell is performing.
+                Each term, we review what the cell has produced together (ideas, formed teams, pitches) and plan the next step, including a transition path to Tier 2 as the cell demonstrates consistent performance.
               </p>
             </div>
           </div>

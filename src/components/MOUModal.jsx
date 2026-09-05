@@ -37,14 +37,14 @@ export default function MOUModal({ isOpen, onClose }) {
   const generateEmailSubject = () => {
     const inst = formData.collegeName || '[Institution Name]';
     const loc = formData.districtState || '[District, State]';
-    return `[MOU Request 2026-27] BSIC Campus Innovation Cell Setup — ${inst} (${loc})`;
+    return `[MOU Request 2026-27] BSIC Campus Innovation Cell Setup: ${inst} (${loc})`;
   };
 
   const generateEmailBody = () => {
     return `To:
 The Secretariat Desk / Member Secretary
 Bharat Startup Incubation Council (BSIC India)
-Institutional Area, Lodhi Road, New Delhi — 110003
+Institutional Area, Lodhi Road, New Delhi 110003
 Email: ${councilInfo.contact.collegeEmail}
 
 SUBJECT: FORMAL REQUEST FOR BSIC CAMPUS INNOVATION CELL (TIER-1) BILATERAL MOU DRAFT & CSR SETUP PACK

@@ -118,19 +118,19 @@ export default function About({ navigateTo, openMOUModal }) {
               <h2 className="section-title">The Story</h2>
               
               <p className="lead-text" style={{ marginBottom: '18px' }}>
-                BSIC — the <strong>Bharat Startup Incubation Council</strong> — started from a simple observation: India’s most effective startup ecosystems aren’t built city by city, they’re built <strong>campus by campus</strong>.
+                BSIC (the <strong>Bharat Startup Incubation Council</strong>) started from a simple observation: India’s most effective startup ecosystems are not built city by city, but <strong>campus by campus</strong>.
               </p>
 
               <p style={{ color: '#334155', fontSize: '1.02rem', lineHeight: 1.75, marginBottom: '18px' }}>
-                States that have invested in structured, college-level innovation cells have produced disproportionate numbers of real startups, real founders, and real jobs — not because their students are different, but because they gave those students a system: <strong>a space, a coordinator, a calendar, and a funding path</strong>.
+                States that have invested in structured, college-level innovation cells have produced disproportionate numbers of real startups, real founders, and real jobs. This happens not because their students are different, but because they gave those students a system: <strong>a space, a coordinator, a calendar, and a funding path</strong>.
               </p>
 
               <p style={{ color: '#334155', fontSize: '1.02rem', lineHeight: 1.75, marginBottom: '22px' }}>
-                Look at where that kind of system actually exists today, and it clusters hard: a handful of metro cities, a handful of engineering institutes and IIT/IIM-affiliated incubators. Government colleges, arts and commerce campuses, and colleges outside the major metros are mostly left out — not because their students want it less, but because nobody has built the system for them.
+                Look at where that kind of system actually exists today, and it clusters heavily: a handful of metro cities, a handful of engineering institutes and IIT/IIM-affiliated incubators. Government colleges, arts and commerce campuses, and colleges outside the major metros are mostly left out, not because their students want it less, but because nobody has built the system for them.
               </p>
 
               <p style={{ color: '#334155', fontSize: '1.02rem', lineHeight: 1.75, marginBottom: '22px' }}>
-                That system is a full-time job most colleges can’t staff on their own — the playbook, the mentor network, the events engine, the reporting structure. 
+                Running that system is a full-time responsibility that most colleges cannot staff on their own: the playbook, the mentor network, the events engine, and the reporting structure. 
               </p>
 
               <div style={{ background: '#0B2545', color: '#FFFFFF', padding: '20px 24px', borderRadius: '4px', borderLeft: '5px solid #F59E0B' }}>
@@ -150,7 +150,7 @@ export default function About({ navigateTo, openMOUModal }) {
                   </h3>
                 </div>
                 <p style={{ margin: 0, fontSize: '0.9rem', color: '#451A03', lineHeight: 1.65 }}>
-                  Even the central government’s own program for underserved regions — AIM’s Atal Community Innovation Centre (ACIC) track — is a narrow, deep-tier layer: a few dozen centres nationally, not a broad campus-level network. Nobody has built the broad, low-cost feeder layer for these colleges. <strong>That’s the gap BSIC fills.</strong>
+                  Even the central government’s program for underserved regions, AIM’s Atal Community Innovation Centre (ACIC) track, is a narrow, deep-tier layer with a few dozen centres nationally rather than a broad campus-level network. Nobody has built the broad, low-cost feeder layer for these colleges. <strong>That’s the gap BSIC fills.</strong>
                 </p>
               </div>
 
@@ -213,7 +213,7 @@ export default function About({ navigateTo, openMOUModal }) {
             {/* Principle 3 */}
             <div className="gov-card">
               <div className="step-num" style={{ background: '#0B2545' }}>3</div>
-              <h3 style={{ fontSize: '1.15rem', color: '#0B2545', marginBottom: '10px' }}>Capital isn’t the hard part — the system is</h3>
+              <h3 style={{ fontSize: '1.15rem', color: '#0B2545', marginBottom: '10px' }}>Capital is not the hard part; the system is</h3>
               <p style={{ fontSize: '0.9rem', color: '#475569', lineHeight: 1.65 }}>
                 Plenty of capital is looking for good student startups. What’s missing is the pipeline that gets ideas to a fundable stage. That structured, de-risked feeder pipeline is what we build.
               </p>
@@ -240,10 +240,10 @@ export default function About({ navigateTo, openMOUModal }) {
           </div>
 
           <div className="gov-split-col" style={{ alignItems: 'stretch', gap: '32px' }}>
-            {/* Primary Leadership Card */}
-            <div className="gov-card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', borderTop: '4px solid #0B2545' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '20px', marginBottom: '18px' }}>
-                <div style={{ position: 'relative', width: '96px', height: '96px', borderRadius: '50%', overflow: 'hidden', border: '3px solid #D97706', flexShrink: 0, boxShadow: '0 4px 12px rgba(11, 37, 69, 0.25)' }}>
+            {/* Primary Leadership Card with Enlarged Typography */}
+            <div className="gov-card" style={{ padding: '32px 30px', display: 'flex', flexDirection: 'column', justifyContent: 'center', borderTop: '4px solid #0B2545' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '22px', marginBottom: '22px' }}>
+                <div style={{ position: 'relative', width: '108px', height: '108px', borderRadius: '50%', overflow: 'hidden', border: '3.5px solid #D97706', flexShrink: 0, boxShadow: '0 6px 16px rgba(11, 37, 69, 0.25)' }}>
                   <img 
                     src="/collaborations/saran_1.jpg" 
                     alt="Saran - Director, Bharat Startup Incubation Council" 
@@ -251,23 +251,23 @@ export default function About({ navigateTo, openMOUModal }) {
                   />
                 </div>
                 <div>
-                  <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', marginBottom: '4px', flexWrap: 'wrap' }}>
-                    <span style={{ fontSize: '0.76rem', color: '#B45309', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+                  <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', marginBottom: '6px', flexWrap: 'wrap' }}>
+                    <span style={{ fontSize: '0.82rem', color: '#B45309', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.05em' }}>
                       Director
                     </span>
-                    <span style={{ fontSize: '0.72rem', background: '#FEF3C7', color: '#92400E', padding: '2px 8px', borderRadius: '3px', fontWeight: 700, border: '1px solid #FDE68A' }}>
+                    <span style={{ fontSize: '0.78rem', background: '#FEF3C7', color: '#92400E', padding: '3px 10px', borderRadius: '3px', fontWeight: 700, border: '1px solid #FDE68A' }}>
                       75+ Campus Hackathons
                     </span>
                   </div>
-                  <h3 style={{ fontSize: '1.45rem', color: '#0B2545', margin: '0 0 4px', fontWeight: 700 }}>
+                  <h3 style={{ fontSize: '1.75rem', color: '#0B2545', margin: '0 0 6px', fontWeight: 700 }}>
                     Saran
                   </h3>
-                  <span style={{ fontSize: '0.84rem', color: '#64748B' }}>Grassroots Student Mobilization & Incubator Operations</span>
+                  <span style={{ fontSize: '0.94rem', color: '#64748B', fontWeight: 500 }}>Grassroots Student Mobilization & Incubator Operations</span>
                 </div>
               </div>
 
-              <p style={{ fontSize: '0.98rem', color: '#334155', lineHeight: 1.7, margin: 0 }}>
-                BSIC is led by <strong>Saran</strong>, who has run <strong>75+ hackathons and campus innovation events across India</strong> — the exact events-as-pipeline engine this program is built around. Having organized grassroots sprints across diverse technical and non-technical institutes, the leadership brings first-hand operational playbooks for student mobilization, mentor bench coordination, and founder incubation.
+              <p style={{ fontSize: '1.14rem', color: '#1E293B', lineHeight: 1.8, margin: 0 }}>
+                BSIC is led by <strong>Saran</strong>, an IIM Bangalore alumnus who has run <strong>75+ hackathons and campus innovation events across India</strong>, the exact events-as-pipeline engine this program is built around. Having organized grassroots sprints across diverse technical and non-technical institutes and partnered with 35 universities nationwide, the leadership brings first-hand operational playbooks for student mobilization, mentor bench coordination, and founder incubation. Saran also serves as a judge, incubation consultant, and industry expert across India's startup ecosystem.
               </p>
             </div>
 
@@ -330,7 +330,7 @@ export default function About({ navigateTo, openMOUModal }) {
               </p>
 
               <p style={{ color: '#334155', fontSize: '1.02rem', lineHeight: 1.75, marginBottom: '24px' }}>
-                The first cohort of partner colleges prioritizes government and non-engineering campuses in tier-2 and tier-3 towns — places with real student ambition and no existing structure to channel it. 
+                The first cohort of partner colleges prioritizes government and non-engineering campuses in tier-2 and tier-3 towns, regions with immense student ambition and no existing structure to channel it. 
               </p>
 
               <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap' }}>
@@ -361,7 +361,7 @@ export default function About({ navigateTo, openMOUModal }) {
                   </h3>
                 </div>
                 <p style={{ fontSize: '0.94rem', color: '#475569', lineHeight: 1.65, marginBottom: '20px' }}>
-                  The near-term goal isn’t scale for its own sake — it’s proving the model works end to end at <strong>three to five pilot campuses</strong> before expanding across regional clusters. This disciplined approach guarantees individual faculty mentorship, tight milestone monitoring, and validated venture formation.
+                  The near-term goal is not scale for its own sake, but proving the model works end to end at <strong>three to five pilot campuses</strong> before expanding across regional clusters. This disciplined approach guarantees individual faculty mentorship, tight milestone monitoring, and validated venture formation.
                 </p>
 
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', borderTop: '1px solid #E2E8F0', paddingTop: '16px' }}>

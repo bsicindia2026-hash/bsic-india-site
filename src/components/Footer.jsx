@@ -72,7 +72,7 @@ export default function Footer({ setCurrentPage, openMOUModal }) {
               </div>
             </div>
             <p style={{ color: '#94A3B8', fontSize: '0.84rem', lineHeight: 1.6, marginBottom: '16px' }}>
-              BSIC partners with Indian colleges — especially government, arts, and commerce institutions in tier-2 and tier-3 towns — to build structured campus innovation cells and incubation centres, giving CSR sponsors a measurable way to fund student startups.
+              BSIC partners with Indian colleges, especially government, arts, and commerce institutions in tier-2 and tier-3 towns, to build structured campus innovation cells and incubation centres, giving CSR sponsors a measurable way to fund student startups.
             </p>
             <div style={{ fontSize: '0.82rem', color: '#CBD5E1', display: 'flex', flexDirection: 'column', gap: '8px' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
@@ -193,7 +193,7 @@ export default function Footer({ setCurrentPage, openMOUModal }) {
               </li>
               <li>
                 <a href="https://mca.gov.in" target="_blank" rel="noopener noreferrer">
-                  <span>MCA — CSR Schedule VII</span>
+                  <span>MCA: CSR Schedule VII</span>
                   <ArrowUpRight size={12} />
                 </a>
               </li>

@@ -112,7 +112,7 @@ export default function Programs({ navigateTo, openMOUModal }) {
               <div>
                 <span className="gov-badge navy">Foundational Level · Broad Reach</span>
                 <h2 style={{ fontSize: '1.8rem', color: '#0B2545', margin: '4px 0' }}>
-                  Tier 1 — Innovation Cell
+                  Tier 1: Innovation Cell
                 </h2>
                 <p style={{ fontSize: '1rem', color: '#B45309', fontWeight: 600, margin: 0 }}>
                   For any partner college. Live within weeks, not semesters.
@@ -172,7 +172,7 @@ export default function Programs({ navigateTo, openMOUModal }) {
                     The Operational Bar:
                   </strong>
                   <p style={{ margin: '4px 0 0 0', fontSize: '0.84rem', color: '#78350F' }}>
-                    Every Innovation Cell is expected to produce real, pitched ideas and formed teams each year — not just passive attendance at seminars.
+                    Every Innovation Cell is expected to produce real, pitched ideas and formed teams each year, rather than passive attendance at seminars.
                   </p>
                 </div>
               </div>
@@ -185,7 +185,7 @@ export default function Programs({ navigateTo, openMOUModal }) {
               <div>
                 <span className="gov-badge">Advanced Incubation · Deep Traction</span>
                 <h2 style={{ fontSize: '1.8rem', color: '#0B2545', margin: '4px 0' }}>
-                  Tier 2 — Incubation Centre
+                  Tier 2: Incubation Centre
                 </h2>
                 <p style={{ fontSize: '1rem', color: '#B45309', fontWeight: 600, margin: 0 }}>
                   For Innovation Cells that prove they can produce real traction.
@@ -226,7 +226,7 @@ export default function Programs({ navigateTo, openMOUModal }) {
                   How a College Gets Here:
                 </h3>
                 <p style={{ fontSize: '0.92rem', color: '#334155', lineHeight: 1.6, marginBottom: '14px' }}>
-                  <strong>Tier 2 isn’t sold — it’s earned.</strong> Cells that consistently produce pitched startups and formed teams at Tier 1 are the ones BSIC moves toward Tier 2 status, with a shared roadmap for what that upgrade requires from the college.
+                  <strong>Tier 2 isn’t sold; it is earned.</strong> Cells that consistently produce pitched startups and formed teams at Tier 1 are the ones BSIC moves toward Tier 2 status, with a shared roadmap for what that upgrade requires from the college.
                 </p>
 
                 <div style={{ background: '#EFF6FF', border: '1px solid #BFDBFE', padding: '12px', borderRadius: '2px' }}>
@@ -234,7 +234,7 @@ export default function Programs({ navigateTo, openMOUModal }) {
                     Why ACIC Matters for BSIC Campuses:
                   </strong>
                   <p style={{ margin: '4px 0 0 0', fontSize: '0.82rem', color: '#1E3A8A' }}>
-                    ACIC is AIM’s dedicated track specifically designed for underserved and unserved regions — a closer match for most BSIC partner colleges than the capital-intensive metro AIC route.
+                    ACIC is AIM’s dedicated track specifically designed for underserved and unserved regions, representing a closer operational match for most BSIC partner colleges than the capital-intensive metro AIC route.
                   </p>
                 </div>
               </div>
@@ -251,7 +251,7 @@ export default function Programs({ navigateTo, openMOUModal }) {
             <h2 className="section-title">The Events Engine</h2>
             
             <p className="lead-text" style={{ marginBottom: '20px' }}>
-              Across every partner campus, BSIC runs a shared calendar of flagship events — hackathons, ideation sprints, mentor days, and a marquee annual pitch event.
+              Across every partner campus, BSIC runs a shared calendar of flagship events, including hackathons, ideation sprints, mentor days, and a marquee annual pitch event.
             </p>
 
             <p style={{ color: '#475569', fontSize: '1rem', lineHeight: 1.7, marginBottom: '28px' }}>

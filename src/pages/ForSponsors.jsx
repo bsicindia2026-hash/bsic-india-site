@@ -32,7 +32,7 @@ export default function ForSponsors({ navigateTo, openCSRModal }) {
                 Direct your CSR spend to a pipeline you can actually measure.
               </h1>
               <p style={{ fontSize: '1.15rem', color: '#CBD5E1', lineHeight: 1.65, marginBottom: '24px' }}>
-                BSIC gives companies a structured, campus-level way to invest in innovation and education under Companies Act Schedule VII — with visibility into real venture output, not just activity reports.
+                BSIC gives companies a structured, campus-level way to invest in innovation and education under Companies Act Schedule VII, with full visibility into real venture output rather than mere activity reports.
               </p>
 
               <div style={{ display: 'flex', gap: '14px', flexWrap: 'wrap', marginBottom: '24px' }}>
@@ -131,7 +131,7 @@ export default function ForSponsors({ navigateTo, openCSRModal }) {
               <h2 className="section-title">Why this fits CSR</h2>
               
               <p className="lead-text" style={{ marginBottom: '20px' }}>
-                Corporate social responsibility budgets are increasingly directed toward education, skill development, and innovation-linked causes under the Companies Act’s CSR framework — categories that cover exactly the kind of on-campus programming BSIC runs.
+                Corporate social responsibility budgets are increasingly directed toward education, skill development, and innovation-linked causes under the Companies Act’s CSR framework, categories that directly cover the kind of on-campus programming BSIC runs.
               </p>
 
               <div style={{ display: 'flex', flexDirection: 'column', gap: '18px', marginTop: '24px' }}>
@@ -141,7 +141,7 @@ export default function ForSponsors({ navigateTo, openCSRModal }) {
                     The Marginal Impact Advantage
                   </h3>
                   <p style={{ fontSize: '0.92rem', color: '#475569', lineHeight: 1.65, margin: 0 }}>
-                    Metro engineering colleges already have IIT- and IIM-affiliated incubators and years of corporate attention — one more sponsor there is marginal. Government and non-engineering colleges in tier 2 and tier 3 towns get almost none of that, which makes the <strong>same rupee substantially more visible and more differentiated</strong>.
+                    Metro engineering colleges already have IIT- and IIM-affiliated incubators and years of corporate attention, meaning an additional sponsor provides marginal incremental impact. Government and non-engineering colleges in tier 2 and tier 3 towns get almost none of that, which makes the <strong>same rupee substantially more visible and more differentiated</strong>.
                   </p>
                 </div>
 
@@ -165,7 +165,7 @@ export default function ForSponsors({ navigateTo, openCSRModal }) {
                   Endorsed by National Best Practices (AIM CSR Precedent)
                 </h4>
                 <p style={{ fontSize: '0.9rem', color: '#451A03', lineHeight: 1.65, margin: 0 }}>
-                  This isn’t a novel funding pattern — <strong>Atal Innovation Mission (AIM, NITI Aayog)</strong> runs its own dedicated CSR Round Table specifically to connect corporate and PSU CSR heads with underserved-region innovation programs. Private CSR funding of innovation infrastructure outside the metros is a recognized, government-endorsed model, not something BSIC is asking sponsors to pioneer.
+                  This isn’t a novel funding pattern. In fact, <strong>Atal Innovation Mission (AIM, NITI Aayog)</strong> runs its own dedicated CSR Round Table specifically to connect corporate and PSU CSR heads with underserved-region innovation programs. Private CSR funding of innovation infrastructure outside the metros is a recognized, government-endorsed model, not something BSIC is asking sponsors to pioneer.
                 </p>
               </div>
 
@@ -189,7 +189,7 @@ export default function ForSponsors({ navigateTo, openCSRModal }) {
                       2. Defined Student Venture Output Bar
                     </strong>
                     <span style={{ fontSize: '0.86rem', color: '#64748B', lineHeight: 1.5, display: 'block' }}>
-                      Real venture formation metrics — ideas pitched, prototypes tested, and student founder teams formed, not just attendance headcounts.
+                      Real venture formation metrics: ideas pitched, prototypes tested, and student founder teams formed, not just attendance headcounts.
                     </span>
                   </div>
 
@@ -288,7 +288,7 @@ export default function ForSponsors({ navigateTo, openCSRModal }) {
                 <BarChart3 size={24} color="#0B2545" style={{ marginBottom: '12px' }} />
                 <h4 style={{ fontSize: '1.1rem', margin: '0 0 6px' }}>Regular Structured Reporting</h4>
                 <p style={{ fontSize: '0.88rem', color: '#64748B', margin: 0 }}>
-                  Detailed milestone dossiers, utilization statements, and student venture metrics for statutory CSR committee reviews — not a one-time thank-you deck.
+                  Detailed milestone dossiers, utilization statements, and student venture metrics for statutory CSR committee reviews, rather than a one-time thank-you deck.
                 </p>
               </div>
 

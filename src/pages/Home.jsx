@@ -42,7 +42,7 @@ export default function Home({ navigateTo, openMOUModal, openCSRModal }) {
               </h1>
 
               <p style={{ fontSize: '1.18rem', color: '#CBD5E1', lineHeight: 1.65, marginBottom: '28px' }}>
-                BSIC partners with colleges across India to run a structured, two-tier innovation program — light-footprint cells that turn students into founders, and dedicated incubation centres that turn the best ideas into companies.
+                BSIC partners with colleges across India to run a structured, two-tier innovation program through light-footprint cells that turn students into founders, and dedicated incubation centres that turn the best ideas into companies.
               </p>
 
               {/* Three Equal-Weight Primary CTAs */}
@@ -178,7 +178,7 @@ export default function Home({ navigateTo, openMOUModal, openCSRModal }) {
               <span className="gov-badge navy">Systemic Observation</span>
               <h2 className="section-title">The problem, stated plainly</h2>
               <p className="lead-text" style={{ marginBottom: '18px' }}>
-                India has no shortage of ambitious students. What most campuses lack isn’t talent — it’s <strong>structure</strong>: a dedicated space, a named coordinator, a funding pathway, and a calendar of events that turns scattered interest into an actual pipeline of startups.
+                India has no shortage of ambitious students. What most campuses lack is not talent, but <strong>structure</strong>: a dedicated space, a named coordinator, a funding pathway, and a calendar of events that turns scattered interest into an actual pipeline of startups.
               </p>
               <p style={{ color: '#475569', fontSize: '1rem', lineHeight: 1.7, marginBottom: '24px' }}>
                 A handful of states have built this at government scale. Most of India’s colleges have nothing comparable. The outcome? Thousands of high-potential students in tier-2 and tier-3 towns graduate without ever having their ideas stress-tested, mentored, or connected to capital.
@@ -254,7 +254,7 @@ export default function Home({ navigateTo, openMOUModal, openCSRModal }) {
             <span className="gov-badge">Two-Tier Program Architecture</span>
             <h2 className="section-title center">What we do</h2>
             <p className="lead-text">
-              BSIC brings a proven two-tier model to any college willing to commit space and a coordinator. We do not ask colleges to become full incubators on day one — we run a progressive, merit-based funnel.
+              BSIC brings a proven two-tier model to any college willing to commit space and a coordinator. We do not ask colleges to become full incubators on day one; instead, we run a progressive, merit-based funnel.
             </p>
           </div>
 
@@ -265,7 +265,7 @@ export default function Home({ navigateTo, openMOUModal, openCSRModal }) {
                 <span style={{ fontSize: '0.72rem', fontWeight: 700, color: '#0B2545', background: '#E2E8F0', padding: '2px 8px', borderRadius: '2px', textTransform: 'uppercase' }}>
                   Foundational Campus Cell
                 </span>
-                <h3 className="tier-title" style={{ marginTop: '8px' }}>Tier 1 — Innovation Cell</h3>
+                <h3 className="tier-title" style={{ marginTop: '8px' }}>Tier 1: Innovation Cell</h3>
                 <p className="tier-subtitle">Cheap to start, fast to launch. Live in weeks, not semesters.</p>
               </div>
               <div className="tier-body">
@@ -302,7 +302,7 @@ export default function Home({ navigateTo, openMOUModal, openCSRModal }) {
                 <span style={{ fontSize: '0.72rem', fontWeight: 700, color: '#78350F', background: '#FEF3C7', padding: '2px 8px', borderRadius: '2px', textTransform: 'uppercase' }}>
                   Advanced Incubation Hub
                 </span>
-                <h3 className="tier-title" style={{ marginTop: '8px' }}>Tier 2 — Incubation Centre</h3>
+                <h3 className="tier-title" style={{ marginTop: '8px' }}>Tier 2: Incubation Centre</h3>
                 <p className="tier-subtitle">For colleges whose Tier 1 cell proves it can produce real teams and traction.</p>
               </div>
               <div className="tier-body">
@@ -345,11 +345,11 @@ export default function Home({ navigateTo, openMOUModal, openCSRModal }) {
             <span className="gov-badge navy">Institutional Inclusivity</span>
             <h2 className="section-title center">Who we’re built for</h2>
             <p className="lead-text" style={{ marginBottom: '24px' }}>
-              Most of India’s entrepreneurship infrastructure sits in a handful of metro cities and a handful of engineering institutes — IITs, IIMs, and the private colleges clustered around them.
+              Most of India’s entrepreneurship infrastructure sits in a handful of metro cities and a handful of engineering institutes, such as IITs, IIMs, and the private colleges clustered around them.
             </p>
             <div style={{ background: '#FFFFFF', border: '1px solid var(--border-default)', borderLeft: '5px solid #B45309', padding: '24px 30px', textAlign: 'left', borderRadius: '3px', margin: '24px 0 32px' }}>
               <p style={{ fontSize: '1.15rem', color: '#0B2545', fontWeight: 600, lineHeight: 1.6, margin: 0 }}>
-                “BSIC is built for everywhere else: government colleges, arts and commerce campuses, and colleges in tier 2 and tier 3 towns that have never had a structured innovation program of their own. Entrepreneurship isn’t an engineering-only idea — it belongs on every campus, whatever the discipline, whatever the city.”
+                “BSIC is built for everywhere else: government colleges, arts and commerce campuses, and colleges in tier 2 and tier 3 towns that have never had a structured innovation program of their own. Entrepreneurship is not an engineering-only concept; it belongs on every campus, whatever the discipline and whatever the city.”
               </p>
             </div>
           </div>
@@ -392,11 +392,11 @@ export default function Home({ navigateTo, openMOUModal, openCSRModal }) {
             <h2 className="section-title">Why this model</h2>
             
             <p className="lead-text" style={{ marginBottom: '20px' }}>
-              This isn’t a new idea — it’s a proven one. State-run programs in Kerala have shown that a broad, low-cost network of campus cells feeding a smaller number of deep incubators produces real startups at scale, without every college needing to build its own lab or write its own playbook.
+              This is not an untested concept; it is a proven model. State-run programs in Kerala have shown that a broad, low-cost network of campus cells feeding a smaller number of deep incubators produces real startups at scale, without every college needing to build its own lab or write its own playbook.
             </p>
 
             <p style={{ color: '#475569', fontSize: '1rem', lineHeight: 1.7, marginBottom: '24px' }}>
-              BSIC brings that same structure to colleges that don’t have a state program behind them — as a private, standardized, ready-to-run alternative.
+              BSIC brings that same structure to colleges that do not have a state program behind them, offering a standardized, ready-to-run institutional alternative.
             </p>
 
             <div className="gov-alert-box" style={{ background: '#F8FAFC', borderColor: '#0B2545' }}>
@@ -434,7 +434,7 @@ export default function Home({ navigateTo, openMOUModal, openCSRModal }) {
                 <h3 style={{ fontSize: '1.25rem', margin: 0 }}>Colleges & Principals</h3>
               </div>
               <p style={{ fontSize: '0.9rem', color: '#475569', lineHeight: 1.6, marginBottom: '20px' }}>
-                Especially government and non-engineering campuses outside major metros — that want an entrepreneurship program without building one from scratch.
+                Specifically tailored for government and non-engineering campuses outside major metros seeking an entrepreneurship program without building one from scratch.
               </p>
               <button 
                 className="btn-gov btn-gov-primary"

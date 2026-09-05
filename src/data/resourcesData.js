@@ -91,7 +91,7 @@ export const resourcesArticles = [
       },
       {
         heading: "How BSIC Tier 2 Facilitates AIC / ACIC Qualification",
-        text: "Colleges graduating from BSIC Tier 1 already possess two terms of verified venture formation data, appointed coordinators, and active venture pipelines — fulfilling the exact prerequisite criteria scrutinized during AIM committee selections."
+        text: "Colleges graduating from BSIC Tier 1 already possess two terms of verified venture formation data, appointed coordinators, and active venture pipelines, fulfilling the exact prerequisite criteria scrutinized during AIM committee selections."
       }
     ]
   }
