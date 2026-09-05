@@ -95,32 +95,32 @@ export default function Footer({ setCurrentPage, openMOUModal }) {
             <h3 className="footer-heading">Programs & Tiers</h3>
             <ul className="footer-links">
               <li>
-                <a href="#programs" onClick={(e) => { e.preventDefault(); navigateTo('programs'); }}>
+                <a href="/programs" onClick={(e) => { e.preventDefault(); navigateTo('programs'); }}>
                   Tier 1: Innovation Cell
                 </a>
               </li>
               <li>
-                <a href="#programs" onClick={(e) => { e.preventDefault(); navigateTo('programs'); }}>
+                <a href="/programs" onClick={(e) => { e.preventDefault(); navigateTo('programs'); }}>
                   Tier 2: Incubation Centre
                 </a>
               </li>
               <li>
-                <a href="#programs" onClick={(e) => { e.preventDefault(); navigateTo('programs'); }}>
+                <a href="/programs" onClick={(e) => { e.preventDefault(); navigateTo('programs'); }}>
                   Flagship Events Engine
                 </a>
               </li>
               <li>
-                <a href="#programs" onClick={(e) => { e.preventDefault(); navigateTo('programs'); }}>
+                <a href="/programs" onClick={(e) => { e.preventDefault(); navigateTo('programs'); }}>
                   DPIIT Recognition Pathway
                 </a>
               </li>
               <li>
-                <a href="#programs" onClick={(e) => { e.preventDefault(); navigateTo('programs'); }}>
+                <a href="/programs" onClick={(e) => { e.preventDefault(); navigateTo('programs'); }}>
                   ACIC & AIC Regional Alignment
                 </a>
               </li>
               <li>
-                <a href="#resources" onClick={(e) => { e.preventDefault(); navigateTo('resources'); }}>
+                <a href="/resources" onClick={(e) => { e.preventDefault(); navigateTo('resources'); }}>
                   Knowledge Bank & Policy Briefs
                 </a>
               </li>
@@ -137,32 +137,32 @@ export default function Footer({ setCurrentPage, openMOUModal }) {
             <h3 className="footer-heading">Stakeholder Portals</h3>
             <ul className="footer-links">
               <li>
-                <a href="#for-colleges" onClick={(e) => { e.preventDefault(); navigateTo('for-colleges'); }}>
+                <a href="/for-colleges" onClick={(e) => { e.preventDefault(); navigateTo('for-colleges'); }}>
                   For Government Colleges
                 </a>
               </li>
               <li>
-                <a href="#for-colleges" onClick={(e) => { e.preventDefault(); navigateTo('for-colleges'); }}>
+                <a href="/for-colleges" onClick={(e) => { e.preventDefault(); navigateTo('for-colleges'); }}>
                   Arts, Commerce & Science
                 </a>
               </li>
               <li>
-                <a href="#for-sponsors" onClick={(e) => { e.preventDefault(); navigateTo('for-sponsors'); }}>
+                <a href="/for-sponsors" onClick={(e) => { e.preventDefault(); navigateTo('for-sponsors'); }}>
                   CSR Sponsorship Framework
                 </a>
               </li>
               <li>
-                <a href="#for-sponsors" onClick={(e) => { e.preventDefault(); navigateTo('for-sponsors'); }}>
+                <a href="/for-sponsors" onClick={(e) => { e.preventDefault(); navigateTo('for-sponsors'); }}>
                   Companies Act Schedule VII
                 </a>
               </li>
               <li>
-                <a href="#about" onClick={(e) => { e.preventDefault(); navigateTo('about'); }}>
+                <a href="/about" onClick={(e) => { e.preventDefault(); navigateTo('about'); }}>
                   About BSIC & Pilot Focus
                 </a>
               </li>
               <li>
-                <a href="#contact" onClick={(e) => { e.preventDefault(); navigateTo('contact'); }}>
+                <a href="/contact" onClick={(e) => { e.preventDefault(); navigateTo('contact'); }}>
                   Contact Secretariat
                 </a>
               </li>

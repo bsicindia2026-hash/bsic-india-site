@@ -1,4 +1,13 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bsicindia.com/sitemap.xml
+# Googlebot specific directives
+User-agent: Googlebot
+Allow: /
+
+# Bingbot specific directives
+User-agent: Bingbot
+Allow: /
+
+# Official Canonical Sitemap
+Sitemap: https://www.bsicindia.com/sitemap.xml

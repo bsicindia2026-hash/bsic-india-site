@@ -1,6 +1,7 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import { updateDocumentSEO } from './utils/seo';
 
 // Code-split pages for high-concurrency (1000+ simultaneous users) edge performance
 const Home = lazy(() => import('./pages/Home'));
@@ -50,6 +51,11 @@ export default function App() {
     }
   }, [highContrast]);
 
+  // Sync document head and metadata dynamically for Googlebot and users
+  useEffect(() => {
+    updateDocumentSEO(currentPage);
+  }, [currentPage]);
+
   // Handle path or hash navigation for clean browser and Vercel routing
   useEffect(() => {
     const handleNavigation = () => {
@@ -61,6 +67,8 @@ export default function App() {
         setCurrentPage(path);
       } else if (validPages.includes(hash)) {
         setCurrentPage(hash);
+      } else if (!path && !hash) {
+        setCurrentPage('home');
       }
     };
 
@@ -75,7 +83,8 @@ export default function App() {
 
   const navigateTo = (pageId) => {
     setCurrentPage(pageId);
-    window.location.hash = pageId;
+    const targetUrl = pageId === 'home' ? '/' : `/${pageId}`;
+    window.history.pushState({ page: pageId }, '', targetUrl);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 

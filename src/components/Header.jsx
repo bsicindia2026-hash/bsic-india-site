@@ -135,7 +135,7 @@ export default function Header({
       <div className="main-header">
         <div className="header-container">
           <a 
-            href="#home" 
+            href="/" 
             className="brand-wrapper" 
             onClick={(e) => { e.preventDefault(); handleNavClick('home'); }}
             aria-label="BSIC India Homepage"
@@ -220,24 +220,33 @@ export default function Header({
           <ul className={`nav-menu ${mobileMenuOpen ? 'open' : ''}`}>
             {navLinks.map((link) => (
               <li key={link.id} className="nav-item">
-                <button
+                <a
+                  href={link.id === 'home' ? '/' : `/${link.id}`}
                   className={`nav-link ${currentPage === link.id ? 'active' : ''}`}
-                  onClick={() => handleNavClick(link.id)}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleNavClick(link.id);
+                  }}
                 >
                   {link.label}
-                </button>
+                </a>
               </li>
             ))}
           </ul>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <button 
+            <a 
+              href="/for-colleges"
               className="nav-cta-btn"
-              onClick={() => handleNavClick('for-colleges')}
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavClick('for-colleges');
+              }}
+              style={{ textDecoration: 'none' }}
             >
               <span>{t.nav.partnerCTA}</span>
               <ChevronRight size={14} />
-            </button>
+            </a>
           </div>
         </div>
       </nav>

@@ -1,0 +1,17 @@
+{
+  "name": "Bharat Startup Incubation Council",
+  "short_name": "BSIC India",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B2545",
+  "theme_color": "#0B2545",
+  "description": "Collegiate Startup Incubation Programs for Colleges & CSR Sponsors Across Bharat",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

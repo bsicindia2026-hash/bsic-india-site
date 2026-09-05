@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="48" fill="#0b2545" stroke="#d97706" stroke-width="4"/>
+  <circle cx="50" cy="50" r="36" fill="none" stroke="#ff9933" stroke-width="2.5"/>
+  <circle cx="50" cy="50" r="24" fill="none" stroke="#138808" stroke-width="2"/>
+  <path d="M50 18 L53 32 L67 32 L56 40 L60 54 L50 45 L40 54 L44 40 L33 32 L47 32 Z" fill="#d97706"/>
+  <text x="50" y="78" font-family="'Merriweather', Georgia, serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle" letter-spacing="1">BSIC</text>
+</svg>
