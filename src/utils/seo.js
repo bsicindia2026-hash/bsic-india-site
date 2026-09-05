@@ -6,7 +6,7 @@
 export const pageSEOMetadata = {
   home: {
     title: "BSIC India | Startup Incubation Programs for Colleges & CSR Sponsors",
-    description: "Bharat Startup Incubation Council (BSIC India) builds turn-key campus innovation cells and student incubation centres funded by corporate CSR under Companies Act Schedule VII.",
+    description: "BSIC India (Bharat Startup Incubation Council) partners with Indian colleges to establish turn-key campus innovation cells and incubation centres funded by CSR.",
     keywords: "Bharat Startup Incubation Council, BSIC India, campus innovation cell, student startup incubator, CSR funding for colleges, Companies Act Schedule VII, collegiate hackathons, Atal Community Innovation Centre, Tier-2 Tier-3 colleges India, Saran IIM Bangalore",
     path: "/",
     ogImage: "/assets/campus_innovation_cell.jpg"
