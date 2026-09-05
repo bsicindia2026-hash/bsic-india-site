@@ -40,7 +40,7 @@ Inspired by the **Atal Innovation Mission (AIM) / NITI Aayog** framework and **D
 
 ### 3. Bilateral MoU Execution Framework
 - Institutional interactive request modal for Principals, Chancellors, and Deans.
-- Automated generation of prefilled official correspondence directly linked to `colleges@bsicindia.com`.
+- Automated generation of prefilled official correspondence directly linked to `contact@bsicindia.com`.
 - Strict non-commercial, zero-CapEx terms underwritten by CSR corporate sponsors.
 
 ### 4. Corporate CSR Sponsorship Pipeline
@@ -191,8 +191,7 @@ npx vercel --prod
 
 ## 🏛️ Council Secretariat & Contact
 
-- **Institutional Partnerships**: `colleges@bsicindia.com`
-- **CSR Corporate Relations**: `csr@bsicindia.com`
+- **Contact Secretariat**: `contact@bsicindia.com`
 - **Head Secretariat**: New Delhi, India
 - **Official Portal**: [https://bsicindia.com](https://bsicindia.com)
 

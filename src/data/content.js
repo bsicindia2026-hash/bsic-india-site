@@ -6,9 +6,9 @@ export const councilInfo = {
   domain: "bsicindia.com",
   portalNotice: "An Autonomous Grassroots Campus Innovation Network",
   contact: {
-    generalEmail: "info@bsicindia.com",
-    collegeEmail: "colleges@bsicindia.com",
-    csrEmail: "csr@bsicindia.com",
+    generalEmail: "contact@bsicindia.com",
+    collegeEmail: "contact@bsicindia.com",
+    csrEmail: "contact@bsicindia.com",
     helpline: "+91 11 2345 6789",
     hours: "Mon - Fri: 09:30 AM - 06:00 PM IST",
     address: "Council Secretariat, Institutional Area, Lodhi Road, New Delhi 110003"
